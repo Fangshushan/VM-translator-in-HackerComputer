@@ -39,7 +39,7 @@ VM Instruction Format:
 > PUSH Instruction
 >
 > ```
-> Copy CodePUSH segment value
+> PUSH segment value
 > ```
 >
 > Pushes the value from the segment onto the stack
@@ -47,7 +47,7 @@ VM Instruction Format:
 > POP Instruction
 >
 > ```
-> Copy CodePOP segment value
+> POP segment value
 > ```
 >
 > Pops the top value from the stack into the segment
@@ -89,7 +89,7 @@ Memory Access Commands:
 VM Code Example:
 
 ```
-Copy Codepush constant 1
+push constant 1
 push constant 2
 add
 push constant 1
